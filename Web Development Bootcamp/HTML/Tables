@@ -1,0 +1,25 @@
+TABELS 
+	Para criar tabelas:
+		- <table>  </table>
+
+
+	Table row (tr) é a coluna, Table data (td) é a célula da tabela
+
+
+	Tabelas também têm header, body e footer, tal como um website html
+
+	
+	Criar table header:
+		- <thead> </thead>
+			- é onde pomos os títulos das colunas dos elementos. Estão por default em bold.
+			- elementos dentro do head são declarados como <th> ao invés de <td>
+		
+		- <tbody> </tbody>
+			
+
+		- <tfoot> </tfoot>
+
+
+
+PARA MOSTRAR TECLADO DE EMOJIS:
+	- Command + Control + Space

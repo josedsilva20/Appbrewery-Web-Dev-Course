@@ -1,0 +1,36 @@
+NAVIGATION BAR
+	
+	O coding é semelhante ao código de uma div
+
+	Na documentação presente na pagina de bootstrap podemos encontrar todas as classes que nos podem ser úteis
+
+	por exemplo a classe .navbar tem um conjunto de instruções css que determinam um estilo padrão da navbar
+
+	ul ficam com a classe navbar-nav
+
+	il ficam com a classe nav-item
+
+	<a> dentro da navbar geralmente queremos usar como links. Para isso usamos a classe: nav-link
+
+	se introduzirmos mais elementos à nav eles ficarão todos verticalmente escritos. Se quisermos em linha separados por |:
+		- usamos a classe navbar-expand-lg, onde lg pode ser substituido por md por ex (tablets)
+
+	para adicionar o feeling de navbar com um fundo:
+		- classe bg-light que bg é background
+
+	podemos alterar as cores dos elementos da navbar:
+		- navbar-light por ex. podemos encontrar todas as cores disponíveis na pagina de BUTTONS do bootstrap.
+
+	para podermos escrever a nossa Marca:
+
+		- criamos uma <a class = "navbar-brand" href= "">Marca</a>
+
+	para separarmos os links da brand logo:
+		- identificar o container dos links; 
+		- adicionar a tag ms-auto. Isso pode ser encontrado na pagina UTILITIES/SPACING no site de bootstrap
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+	Para fazer com que no tablet vejamos uma barra para expandir a navbar precisamos:
+		-  .Disponível na pag COMPONNENTS/TOGGLER

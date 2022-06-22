@@ -1,0 +1,55 @@
+CSS
+	
+	css pega numa parte do código, faz uma mudança, de um certo modo. Tudo isto em relação ao estilo.
+
+	syntax do css:
+		- selector(who){property(what): Value(how)}
+
+	Uma boa pratica é por os selectors em ordem alfabética dentro de uma função
+	
+
+	Para encontrarmos cores para por no nosso website podemos usar o site colorhunt.co
+	
+	Para definirmos alguma coisa relacionada com o CSS criamos uma tag <style></style>
+
+	dentro dela escrevemos a área na qual queremos que as nossas mudanças no código se manifestem:
+		- body {conteudo que afecta}
+
+	Para mudar a cor dentro de alguma parte do código usando css:
+		- background-color: cor-a-usar. A cor a usar pode ser escrita em hexadecimal ou então em nome encontrado nos docs do mdn
+
+		- esse atributo da cor (no meu código) foi aplicado no head.
+
+	Se quisermos modificar uma coisa que se repete várias vezes no código (ex: hr):
+
+		- hr {
+				background-color: cor-que-queremos;
+			}
+
+			As hr ja têm um estilo predefinido nos browsers, tanto é que para modificarmos os seus estilos precisamos mudar um dos atributos para none:
+	
+				- border-style: dashed none none none.      Esses none significam que não vai se ver nada.
+					começa em cima e segue no sentido horário: direita, baixo, esquerda.
+				
+
+				Podiamos também fazer:
+					- border-style: none;   	border-top-style: dotted. 
+
+
+	Se quisermos que as coisas postas em css se manifestem em todas as outras paginas, temos que:
+		- criar uma nova pasta chamada css:
+		- criar um ficheiro chamado style.css e nele meter o código que estava presente em </style>
+		- criar um link no head do index.html:
+			- link rel="stylesheet" href="diretorio/para/style.css"
+		- copiar o link para todos os ficheiros html que criamos
+
+
+	Se quisermos modificar alguma coisa em especifico (imagem por ex) e não quisermos modificar todos do seu tipo (todas as imagens) podemos usar class selectors:
+		
+		- <img class = "broccoli" src= "lskjdflsj">
+			isto permite que apenas o objeto broccoli seja alterado e não as restantes imagens
+
+		- quando chamarmos as classes no código css precisamos usar .broccoli{...;}
+
+
+

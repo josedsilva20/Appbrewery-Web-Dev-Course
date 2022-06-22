@@ -1,0 +1,25 @@
+As três formas de criar ficheiros são:
+	- touch filex.txt : isto cria um ficheiro sem nada no directorio
+	- echo "Hello" > file1.txt : cria um ficheiro e escreve Hello
+	- ls > file2.txt : cria ficheiro e escreve o nome nele mesmo
+
+
+Para ler um ficheiro:
+	- comando "cat": 
+		/tmp/term $ cat file1.txt
+
+
+Para mover um ficheiro:
+	- mv file1.txt /dir/destino/para/ficheiro
+
+
+Para renomear: 
+	- mv file1.txt nome_novo.txt
+
+
+Para apagar ficheiro/diretório:
+	- rm -i file1.txt (assim ele vai fazer prompt para confirmar)
+	- rm -ri Diretorio : apaga diretorio e todo seu conteudo.
+	Devemos ter cuidado com comando rm porque nao manda nada para a 		pasta Trash, ele apaga definitivamente as coisas.
+
+

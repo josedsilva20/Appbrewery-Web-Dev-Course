@@ -1,0 +1,44 @@
+LISTS
+	Servem para listar elementos (com bullet points por exemplo) num website
+
+
+
+
+UNORDERED LISTS
+	usa-se para elementos não ordenados (usando por ex bullet points)
+		
+					<ul> 
+							<li> elemento <li>
+				    </ul>
+	Se quisermos fazer sub-listas dentro de listas, temos de fazer dentro da atual lista uma outra lista <ul></ul>
+
+
+
+ORDERED LISTS
+	usa-se para numerar elementos numa lista, pondo a contar por ex de 1 até elemento n
+
+					<ol>
+      					<li>second item first subitem</li>
+      					<li>second item second subitem</li>
+      					<li>second item third subitem</li>
+    					</ol>
+
+
+
+ATTRIBUTES
+	reversed
+		This Boolean attribute specifies that the list's items are in reverse order. Items will be numbered from high to low.
+
+	start
+		An integer to start counting from for the list items. Always an Arabic numeral (1, 2, 3, etc.), even when the numbering
+          Type is letters or Roman numerals. For example, to start numbering elements from the letter "d" or the Roman numeral
+		"iv," use start="4".
+
+	type
+		Sets the numbering type:
+
+			a for lowercase letters
+			A for uppercase letters
+			i for lowercase Roman numerals
+			I for uppercase Roman numerals
+			1 for numbers (default)

@@ -1,0 +1,19 @@
+ID's
+        são parecidos com os selectors e para usa-los:
+                - <h1 id ="heading"> conteudo do h1 </h1> # no codigo em htmls
+
+                - #header {customização do header em css}
+
+        IDs: nao pode haver mais de um id para cada elemento. Não pode haver mais de um id na mesma pagina. sao usados para descrever elementos com caracteristicas diferenciadas dos outros elementos.
+
+        classes: pode haver um ou mais de um. sao usados para descrever elementos com comportamento semelhante
+	
+	
+	Não é muito aconselhado usar ids. css lint extension aconselha a usar mais classes e selectors.
+
+
+SUDO-CLASSES:
+	
+	Sao classes com comportamentos especificos e podem ser usados no codigo css em ids, selectors e classes.
+		- img: hover {background color: gold};
+			hover neste caso vai implicar com que ao pousarmos o mouse em cima da foto ele tenha um comportamento, neste caso, mudar a cor do background para gold.

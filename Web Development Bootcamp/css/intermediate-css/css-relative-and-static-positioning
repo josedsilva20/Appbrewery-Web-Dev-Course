@@ -1,0 +1,20 @@
+STATIC
+	
+	mantem a ordem indicada no ficheiro html. 
+
+
+RELATIVE
+
+	adicionamos margin a onde ele deveria estar, em relação ao body.
+	personaliza a posição do item selecionado. Ex: img {position: relative; left: 30px}
+	isto faz com que do lado esquerdo se adicione 30 px, movendo-o para a direita. 
+	Se fosse top ele baixava 30 px, movendo-o para baixo
+
+ABSOLUTE
+	
+	adicionamos margin a onde ele deveria estar, em relação ao ao seu parent element, ou seja, se estiver dentro de um div será 30px dentro do div em que está.
+	se pusermos Ex: img {position: absolute; right: 30px}, ele vai puxar para o lado direito e vai separar o fim do lado direito com 30px.
+
+FIXED
+
+	Aqueles elementos que se fizermos scroll na pagina web, eles nao desaparecem, ou seja são fixos na pagina web toda

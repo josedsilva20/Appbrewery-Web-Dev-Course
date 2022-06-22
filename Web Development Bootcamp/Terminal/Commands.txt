@@ -1,0 +1,18 @@
+Saber descricao de um comando:
+	- type comando
+		type ls
+		type cp
+
+
+Para determinar a localização de um executável:
+	- which executavel
+		which ls
+		which cp
+
+
+Entendendo comandos (descricao de funcionamento):
+	- help comando : lista tudo
+	- man comando  : descreve comando
+	man não mostra exemplos, apenas descreve. Deve ser usado como um
+	guia (auxílio) e não como um tutorial
+

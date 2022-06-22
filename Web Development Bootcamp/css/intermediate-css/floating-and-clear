@@ -1,0 +1,10 @@
+FLOATING
+	
+	Quando queremos que um texto fique por ex, do lado da imagem que temos usamos o float.
+
+	Para usar: 
+		- float: left;
+
+CLEAR
+
+	É o oposto do float e pode ser usado com os mesmos argumentos que o float

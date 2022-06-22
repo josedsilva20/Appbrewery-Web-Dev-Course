@@ -1,0 +1,13 @@
+FAVICONS
+	Sao os icones que aparecem no nosso titulo da pagina web.
+
+	Podemos usar pequenos emojis ou icones personalizados para tal.
+
+	Para usar favicons:
+		- visitar a pagina favicon.cc e criar um favicon
+
+		- criar um ou baixar um existente
+	
+		- meter na mesma pasta que index.html 
+
+		- criar um link para favicon: link <link rel="icon" href="favicon.ico?v=2"> o ?v=2 é se o browser nao aceitar.

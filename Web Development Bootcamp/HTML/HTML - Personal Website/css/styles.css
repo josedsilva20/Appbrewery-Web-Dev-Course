@@ -1,0 +1,42 @@
+/* Here we keep everything that affects the style of our webapp/website
+   Best practices say: put the rules in alphabetic order
+
+
+   To use beautify extension in mac: shift + option + F
+*/
+
+/*####################################TAG SELECTORS##################################################################*/
+
+body {
+  background-color: #eaf6f6;
+}
+
+hr {
+  border-color: rgba(152, 176, 181, 0.58); /* Changes the color of the border*/
+  border-style: none; /* Makes the browser forget its predefinitions to the border-style*/
+  border-top: 1px dashed rgba(152, 176, 181, 0.58);
+  border-width: 14px; /* Changes the width of the dotts in the border*/
+  height: 1px;
+  width: 6%;
+}
+
+h1 {
+  color: #66bfbf;
+  text-align: center;
+}
+
+h3 {
+  color: #66bfbf;
+}
+
+title {
+  text-align: center;
+}
+
+/*####################################TAG SELECTORS##################################################################*/
+
+/*####################################ID SELECTORS##################################################################*/
+
+#heading {
+  text-align: center;
+}

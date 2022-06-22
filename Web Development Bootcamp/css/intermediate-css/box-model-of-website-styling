@@ -1,0 +1,13 @@
+BORDER 
+	onde podemos definir o tamanho de border da box. aconselha-se a usar percentagem.
+
+PADDING	
+	usa-se para deixar algum espaço entre o texto e os outlines da box:
+		- {padding: 20px;}
+	
+	Padding apenas se faz no texto. Se tivermos uma imagem no background a mesma não é afectada.
+
+MARGIN 
+	distancia o nosso elemento de todos os outros a sua volta:
+		- {margin: 10px;}
+

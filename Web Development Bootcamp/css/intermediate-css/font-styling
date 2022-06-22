@@ -1,0 +1,14 @@
+FONTS
+	
+	Usaremos nos nossos websites serif e sans serif fonts. Monospace fonts apenas são usadas quando queremos por no nosso site alguma coisa que tenha código la dentro.
+
+	Para aplicar:
+		- font-family: "nome da fonte", fonte-alternativa, outra-alternativa......... Sans-serif (onde sans-serif é a ultima chance alternativa, se nao tiver nenhuma das outras)
+
+
+	Para usar uma fonte que vai funcionar em todos os browsers:
+		- ir a googlefonts.com e escolher as fontes todas e no fim fazer copy de todas;
+
+		- colar no header o que esta no link copiado (isto Dira o browser para ir buscar as fontes se ainda não as tiver).
+
+		

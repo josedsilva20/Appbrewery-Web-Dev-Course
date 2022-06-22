@@ -1,0 +1,13 @@
+CONTAINERS
+	Sempre que usarmos um grid system eles geralmente são representados por containers
+
+	Os containers ajustam-se automaticamente ao layout (mobile, desktop...)
+
+	O problema é que os containers não ocupam todo o width. Para ocupar todo width...
+
+
+
+FLUID CONTAINERS
+	Ocupam Todo o width, 100%.
+
+	Usamos a tag "container-fluid"

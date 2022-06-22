@@ -1,0 +1,20 @@
+IMAGES
+	Podemos adicionar imagens aos nossos websites usando imagens disponíveis em nossos computadores ou na net.
+	
+	Para as usarmos precisamos definir o caminho para o protocolo HTTP fazer o get
+
+
+	<img src = "site/caminho para levar a imagem" alt = "Descrição caso não consiga levar a img">
+	
+	NOTA: alt pode servir de referencia para os motores de busca encontrarem o vosso site. Por ex, se alt for "receita-burrico-carne", sempre que alguém pesquisar sobre burritos de carne, o google pode incluir o seu site na pesquisa
+
+
+	Para poder encontrar/gerar links para as fotos (se não apanharmos na internet), podemos usar o site photobucket.com e gerar os links
+
+
+	Podemos também usar fotos que estejam dentro do mesmo diretório que o do ficheiro:
+		-	Para isso basta trocar a src e por la o diretório da imagem.
+
+
+	Existe uma ferramenta para cortar fotos de forma circular:
+		-	crop-circle.imageonline.co

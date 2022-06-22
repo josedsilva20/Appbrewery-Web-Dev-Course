@@ -1,0 +1,45 @@
+Para sabermos quais são as permissões para um ficheiro:
+	- ls -l ficheiro.extensao
+	nos será mostrado isto:
+
+	-rwxr-xr-x 1 root root 1183448 Feb 25 12:03 /bin/bash
+	^+-+   +-+ ^   ^    ^     ^    +----------+ +-------+
+	| | +-+ |  |   |    |     |         |           |
+	| |  |  |  |   |    |     |         |           File name
+	| |  |  |  |   |    |     |         Modification Date
+	| |  |  |  |   |    |     File Size
+	| |  |  |  |   |    Owner group
+	| |  |  |  |   User owner
+	| |  |  |  Number Hard Links
+	| |  |  Others Permissions     
+	| |  Group Permissions  
+	| Owner Permissions
+	Type of file: d for directory, - otherwise
+
+
+no linux ha três hierarquias:
+	- O dono do ficheiro
+	- Users no grupo do dono do ficheiro
+	- Outros users
+
+
+as permissões são:
+	- read (r)
+	- write (w)
+	- execute (x)
+
+
+Para atribuirmos/removermos um conjunto de permissões a um user/grupo usamos o comando "chmod".
+u-user
+g-group
+o-other
+a-all
+
+
+para adicionar permissões usamos "+", para remover usamos "-", para atribuir usamos "=".
+
+Quando usamos o comando chmod fazemos:
+	- chmod a=rwx someFile : all podem ler, escrever e executar.
+	- chmod u+x someFile : atribuir permissão de executar ao user
+	- chmod g-rw someFile : remover permissão de ler e executar ao gru
+		po

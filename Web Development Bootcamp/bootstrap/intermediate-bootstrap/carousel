@@ -1,0 +1,25 @@
+CAROUSEL
+	É uma espécie de slideshow
+
+	Carousel é um div que tem um id de com o nome pretendido e uma classe chamada "carousel"
+
+	Dentro do div do carousel existe outro div com a classe "carousel-inner"
+
+	Dentro do carousel-inner existem mais divs que são os elementos: chamam-se "carousel-item". Um desses precisa ter um atributo amais na classe que é: "carousel-item active"
+
+
+	Border radius torna a foto circular
+
+	Podemos fazer slideshows acedendo a pagina da documentação do bootstrap através da parte de CAROUSEL
+
+
+	Para usarmos algum slideshow copiamos e colamos o código disponível nesse sítio
+
+	Podemos ainda regular o tempo para fazer o slideshow e outros atributos usando:
+		
+		- "data-coisa" onde coisa é o atributo pelo qual queremos por, pode ser interval por ex, que define o intervalo em 	que os slides são apresentados em milessegundos.
+
+
+	Podemos definir quando é que ele vai trocar para outro slide:
+		- poder ser false : que é quando ele passa depois de nós o dizermos para passar
+

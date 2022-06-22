@@ -1,0 +1,24 @@
+Como em linux tudo é um "ficheiro" então quando executamos algum comando (ls por ex) ele escreve o seu resultado no ficheiro stdout, que por sua vezmostra o seu conteúdo no terminal. Mas se quisermos escrever num ficheiro diferente do stdout devemos usar flags como > ou >>
+
+
+
+O mesmo acontece quando queremos ler de algum sítio que não seja o stdin. A diferença é que usamos as flags < ou <<
+
+
+
+Para escrever para um ficheiro:
+	- echo "Texto"> ficheiro.txt
+	- ls > ls.txt : escreved o resultado de ls no ficheiro ls.txt
+	
+	ao usar no comando ">" fazemos overwrite daquilo que há lá.
+	para fazermos append usamos ">>"
+
+
+
+Para ler de um ficheiro:
+	- sort < ls.txt : faz sort do conteudo do ls.txt e faz output no
+			  stdout do computador
+	Mas também podemos fazer output num ficheiro à nossa escolha:
+	fazemos: sort < ls.txt > output.txt
+
+ 

@@ -1,0 +1,10 @@
+LINKS
+	Para criar links:
+		- <a href = "link.a.usar.com"> Frase que vai aparecer em cima do link </a>
+
+
+	Para criar uma separate web page para um link:
+		- criar um ficheiro no mesmo diretório que o index.html
+
+		- criar um href para esse ficheiro no mesmo diretório ou simplesmente por la o path:
+			- <a href = "ficheiro.html"> Frase que vai aparecer em cima do link </a>

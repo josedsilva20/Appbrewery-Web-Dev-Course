@@ -1,0 +1,16 @@
+BUTTONS
+	Disponível em COMPONENTS/BUTTONS
+
+	Basicamente tudo é so usar a documentação disponível no site. MUITO BOM!
+
+	Para podermos adicionar ícones aos botões em bootstrap:
+	
+		- adicionar fontawesome.com às nossas bibliotecas no código logo em baixo da biblioteca de css styling.
+
+		- escolher o ícone que vamos usar.
+
+		- Copiar o link que eles dão e colar no botão que queremos logo entre o fim da abertura e o inicio do nome do botão.
+			
+			-<button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-apple"></i>
+              		Download
+            	 </button>

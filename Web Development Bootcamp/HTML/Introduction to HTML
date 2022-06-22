@@ -1,0 +1,75 @@
+HEADER
+	<h1> Titulo a escrever </h1> 
+
+	Podemos pôr outros headers, e, quanto mais aumentar o header, mais pequena será a letra (tamanho)
+
+	Os headers variam de tamanho de 1 até 6
+
+
+
+LINE BREAK
+	Para saltar linhas em HTML usamos o comando <br> que não precisa ser fechado como os outros comandos
+
+	Podemos inseri-lo no meio de um header para poder saltar de linha. ex: <h1> Ja que <br> somos </h1>. 
+		permite o output: 
+			Ja que
+			  somos
+
+
+HORIZONTAL RULES
+	Para criar linhas sobre/abaixo do nosso texto usamos o comando <hr> que como o <br> também é self-closing, ou seja, não precisa de ser fechado.
+
+
+META
+	São tags usadas para descrever metadados num ficheiro HTML. Geralmente se encontram nos HEADERS.
+
+	Homepages are generally in the file named index.html 
+
+	São usados para fazer set de caracteres no site, descrever o autor do site e ajuda a aparecer no motor de busca (quando se pesquisa por aquela página).
+
+     <meta charset = "utf-8"> meta inserts meta elements (extra elements to our code). In this case it sets characts in utf-8 format
+
+     Attribute						Value											Description
+
+		charset					character_set 					Specifies the character encoding for the HTML 																				document
+
+
+		content						text 		  					Specifies the value associated with the 																		http-equiv or name attribute
+
+
+		http-equiv			content-security-policy
+								content-type
+								default-style
+									refresh							Provides an HTTP header for the information/										value of the content attribute
+
+
+		name					application-name
+									author
+								description
+									generator
+									keywords
+									viewport								Specifies a name for the metadata
+
+     EX: 	<head>
+			  <meta charset="UTF-8">
+			  <meta name="description" content="Free Web tutorials">
+			  <meta name="keywords" content="HTML, CSS, JavaScript">
+			  <meta name="author" content="John Doe">
+			  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			</head>
+
+
+PARAGRAPH
+	Comando usado para fazer parágrafos (agrupar em parágrafos)
+
+	Faz-se através do comando <p>
+
+REALÇAR TEXTO
+	Dicas:
+		*	Usar <em></> ao invés de usar <i></> 	Itálico
+		*	Usar <strong></> ao invés de <b></>		Bold
+
+
+TÍTULOS
+	Títulos geralmente são feitos usando o header do tipo <h3>
+

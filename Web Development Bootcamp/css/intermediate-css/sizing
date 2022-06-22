@@ -1,0 +1,13 @@
+SIZING
+		
+	Por vezes podemos querer que os textos do nosso código tenham tamanhos específicos para cada secção ou algo do género.
+	
+	para alterar os tamanhos:
+		- font-size: tamanhopx; onde tamanho é um numero. 
+
+	também podemos por o tamanho em percentagem ou em. Para isso temos de fazer pixel/16 para saber qual é a % equivalente. Neste caso seria 90/16=562,5. 1em= 16px =100%
+	quando pomos o tamanho em percentagem ou em, o tamanho fica variável consoante aquilo que o utilizador configura como font size dentro do browser. Se mantivermos em px, o utilizador virá sempre o o mesmo tamanho.
+
+	Tags em e percentagem herdam do seu parent container os tamanhos, ou seja, pegam naquele definido e somam ao herdado tornando assim ainda maior do que queríamos, dando problema. Para isso, devemos usar rem ao invés de em, porque rem deixa de herdar. 
+
+			O RECOMENDADO É SEMPRE USAR PIXELS ou REM!!

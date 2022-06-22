@@ -1,0 +1,21 @@
+CENTER
+
+	Para alinharmos o texto usamos uma propriedade chamada text-align e tem de ser implementada no parent container. 
+	No caso do nosso site tem de ser no top-container ou no body
+	isto so funciona com inline-block elements como imagens e h1's.
+
+MARGIN
+	
+	Podemos centrar usando margin: 
+		- margin: 0 auto 0 auto ---> cima, direita, baixo, esquerda
+		ou então:
+		- margin: 0 auto;
+
+	Isto se usa quando os elementos preenchem a linha toda e nós somente queremos ocupar um espaço em específico.
+	removendo assim as margens laterais, deixando tudo centrado e sem material para fora da caixa.
+
+
+
+CONCLUSAO
+
+	Center usamos para por tudo no centro mas se quisermos ocupar apenas a largura específica de cada objeto precisamos usar o margin no son container e continuamos com center no parent container

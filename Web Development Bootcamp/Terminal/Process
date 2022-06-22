@@ -1,0 +1,28 @@
+Para correr comandos no background:
+	- command1 &
+
+
+Para mostrar todos os processos a correr:
+	- ps
+
+
+Para "matar" um processo:
+	- kill PID
+		onde PID é o numero do processo. Ex:
+			$ kill 1234
+			[2]+ Terminated command1
+
+
+O comando kill avisa aos processos quando os "mata", dando códigos:
+	1: Hangup signal
+	2: Interrupt signal
+	3: Kill signal
+	4: Termination signal
+
+
+Para correr um comando1, e se tiver sucesso correr o comando2:
+	- command1 && command2
+
+
+Para correr comando2 se e só se o outro falhar:
+	command1 || command2

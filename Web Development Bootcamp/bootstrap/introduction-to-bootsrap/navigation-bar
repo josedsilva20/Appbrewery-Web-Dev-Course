@@ -1,0 +1,8 @@
+NAV BAR
+	
+	é usada para levar para outras partes do código
+	
+	para a usarmos criamos uma <nav class="navbar"></nav>
+
+	para sabermos que tags por em cada elemento precisamos usar a documentação do bootstrap disponível em:
+		- getbootstrap.com/docs

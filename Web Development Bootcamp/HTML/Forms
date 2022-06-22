@@ -1,0 +1,56 @@
+FORMS
+	Formulários servem para extrair algum tipo de dados dos utilizadores.
+
+	Para o funcionamento de um formulário a sério precisamos de perceber javascript. Ver-se-à mais tarde!
+
+	<form class="" action="index.html" method="post">
+      <label>Your name:</label>
+      <input type="text" name="" value="">
+	</form>
+
+
+	O action acima citado serve para especificar o que se irá fazer com a informação posta no formulário. Se mudarmos o que esta em action e pusermos mailto:endereço@dominio.com estamos a redirecionar a informação para esse tal de email
+
+
+	Para a informação submetida poder ser perceptível e organizada, usamos alguns atributos, modificando o código acima:
+
+	<form class="" action="mailto:j.joseds123@icloud.com" method="post" enctype="text/plain">
+      	<label>Your name:</label>
+     		<input type="text" name="yourName" value=""> <br>
+      	<label>Your email:</label>
+      	<input type="email" name="yourEmail"><br>
+      	<label >Your message:</label><br>
+      	<textarea name="yourMessage" id="" cols="40" rows="10"></textarea>
+      	<input type="submit">
+    	</form>
+
+	
+
+	As duas coisas a reter nos formulários são label (que define o texto que vem antes da coisa a extrair) e também input (que define o tipo de entrada)
+
+
+	Este é um tópico pelo qual vale muito a pena analisar o material disponível	no mdn
+	
+
+	Podemos usar varios types no input:
+		- date, range, radio, file, etc
+
+	Para o utilizador inserir texto numa caixa:
+
+		- <textarea name = "name" rows = "numero de linhas" cols = "nr colunas"></textarea>
+
+
+________________________________________________________________________________________________
+
+
+
+PARA PUBLICAR UM SITE SEM PRECISARMOS PAGAR PARA FAZER HOSTING PODEMOS USAR O GITHUB:
+	- Criar um repositório com um READMEfile
+
+	- meter la os ficheiros do website e deixar no diretório o ficheiro index.html. 
+
+
+
+
+
+

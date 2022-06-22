@@ -1,0 +1,9 @@
+LAYOUT
+
+	O ecrã em bootstrap está dividido em 12 colunas. Portanto os tamanhos 1-12 indicam o nr de col a ocupar.
+
+	Para criar divs com tamanho responsive ao tamanho do device a ser usado:
+
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6"></div>
+
+		onde lg - desktop, md - laptop, sm - tablet, XS - mobile

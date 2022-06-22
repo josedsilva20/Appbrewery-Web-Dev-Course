@@ -1,0 +1,31 @@
+o codigo css tem 4 valores de display:
+
+BLOCK
+	Podemos modificar width etc. São alguns dos tipos: parágrafos...	
+
+INLINE
+	Nos inline-elements não podemos modificar width.
+		SPANS
+			<span> class = "classe-a-modificar-no-codigo-css"</span> serve para modificar um texto sem o separar	
+			ou seja, podemos usar pequenas boxes que sao os spans que apenas vão ocupar o espaço necessario ao inves de usarmos 		    ,paragrafos por exemplo, que ocupam a linha toda.
+
+		IMAGES
+			as imagens comuns
+
+		ANCHOR TAGS
+			links
+		
+INLINE-BLOCK
+	Inline-block elements Sao elementos inline que tem a possibilidade de modificar o seu width, mas continuando com as propriedades de inline
+
+
+
+NONE
+	Se dermos o atributo display: none, veremos que o elemento foi "apagado" do site, e assim nao o conseguimos ver no navegador.
+	Se escrevermos visibility: hidden, o elemento desaparece mas o espaço que ele ocupa fica em branco.
+
+
+
+Podemos modificar os nossos elementos transformando-os em inline, block, inline-block...:
+	- p {display: inline}
+
