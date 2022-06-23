@@ -1,0 +1,22 @@
+CARDS
+
+	São usados geralmente quando queremos pôr malta preços
+
+	Podemos usar:
+	
+		<div class="card">
+    			<div class="card-header">
+      			header
+    			</div>
+    			<div class="card-body">
+      			body
+    			</div>
+  		</div>
+
+	o card-reader geralmente contém o titulo do pricing do pacote. Por exemplo o nome do plano
+
+	o card-body contem o conteudo do plano por ex os preços e as descrições
+
+	Temos que ter tudo isso (todos os divs de card) dentro de um div com a classe "card-grou"
+
+	estes cards podem ser agrupados dentro de rows e cols para podermos arranjar da forma que quisermos no code.

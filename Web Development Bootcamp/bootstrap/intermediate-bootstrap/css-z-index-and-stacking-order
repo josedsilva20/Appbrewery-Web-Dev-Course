@@ -1,0 +1,25 @@
+	
+	A melhor forma de pormos coisas em cima das outras é fazermos nested elements:
+		-
+			<div class="red">
+    				red
+    				<div class="yellow">
+    					yellow
+    				</div>
+			</div>
+
+	Assim significa que veremos a boa amarela por cima da boa vermelha
+
+	Por isso as coisas que aparecem primeiro no código HTML aparecem primeiro(em baixo) no ecra
+
+	
+
+Z-INDEX
+	
+	Uma forma mais fácil de mudar isso usando css é usando a função z-index:
+
+		- z-index: 1; isso poe o elemento em cima de todas as coisas; -1 poe em baixo de todas as coisas.
+
+	NB: z-index apenas funciona se tivermos definido a posição do elemento. Ex:
+		 
+		- position: absolute; ou se for relativo. Se for static não vai funcionar.

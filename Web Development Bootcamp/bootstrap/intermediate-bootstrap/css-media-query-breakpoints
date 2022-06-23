@@ -1,0 +1,21 @@
+MEDIA-QUERY
+
+	@media <type> <feature>
+
+	São statements que so ficam validos a uma determinada acção. Por ex:
+
+		@media print { h1{color: red;}}
+	
+		Isto faz com que sempre que fizermos print da nossa pag web o texto fique vermelho. Mas em cond normais fica preto
+
+
+	ex:
+		@media screen (min-width: 900px){
+		
+			//Change something
+
+		}
+
+
+
+NB: ANGELA SUGERE QUE SE CRIE OS WEBSITES NA DIREÇÃO DE MOBILE PRIMEIRO E DEPOIS FAZER A PENSAR EM TABLET E EM DESKTOP
