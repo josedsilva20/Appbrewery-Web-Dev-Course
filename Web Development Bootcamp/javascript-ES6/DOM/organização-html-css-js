@@ -1,0 +1,21 @@
+Devemos manter a regra CSS-estilo html-estrutura e js-comportamento.
+
+
+Mas js permite mudar o comportamento do site (alteração de css e html consoante ações dadas).
+
+
+Apesar do js poder mudar o estado e estilo do website, nao devemos modificar o estilo diretamente no código js, ou seja, por la código de css.
+
+
+A boa pratica diz que devemos usar certo tipo de métodos que vão posteriormente usar código css e aplica-lo diretamente no html
+
+
+Uma boa forma de o fazer:
+	
+	- document.querySelector("button").classList.add("invisible");
+		
+		isto permite que adicionemos uma determinada classe css ao html para modificar o estilo. Neste caso inv.
+
+	- document.querySelector("button").classList.toggle("invisible");
+
+		isto faz com que se ñ estiver aplicado, aplica, e se estiver ñ aplica.

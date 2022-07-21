@@ -1,0 +1,41 @@
+FUNCOES DE ORDEM SUPERIOR
+
+	Sao funcoes que sao declaradas e executadas como argumento de uma outra função:
+	
+		- carros.addEventListener("click", function(){
+			alert("hello");
+		})
+
+		ou declarada de outra maneira:
+
+			  carros.addEventListener("click", respondToClick); 
+
+			  function respondToClick () {
+				alert("hello");
+			  }
+
+
+EXEMPLO DE FUNCAO LAMBDA
+
+	function calulator(num1, num2, operator){
+  		return operator(num1, num2);
+	}
+
+	function add(num1, num2){
+  		return num1 + num2;
+	}
+
+	function multiply(num1, num2){
+  		return num1 * num2;
+	}
+
+
+	ou seja, a funcao de ordem superior é a funcao lambda, que chama as outras
+
+
+DEBUG
+
+	Para fazer debug no chrome:
+
+		- precisamos escrever "debugger; /n funcao(arg1, ..., argn);" e vai nos mostrar o debugger nessa func.
+

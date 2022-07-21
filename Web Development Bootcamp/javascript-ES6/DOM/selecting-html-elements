@@ -1,0 +1,27 @@
+	Para obter um certo tipo de elementos:
+	
+		- document.getElementById ---> vai buscar o elemento com aquele id
+
+
+		- document.getElementsByTagName("li") --> vai buscar array com todos elementos que são li.
+
+		- documento.getElementsByClassName("x") ---> array de todos elementos com classe x
+
+		- document.querrySelector("name") ---> retorna o elemento com esse nome.
+
+			- se name for html-tag: pomos so o name, se for id: pomos #name, se for class: .name.
+
+	
+	Se houver vários links e eu quiser um específico por ex:
+		- document.querrySelector("li a"); isto leva o link dentro de um elemento da lista. 
+
+	Para encontrar um elemento que é uma coisa e tb tem um id = "item":
+
+		- document.querrySelector("li.item"); 
+
+			- ao fazer isto, se tivermos mais de um elemento com as mesmas características ele vai retornar o primeiro que ele apanhar. Se quisermos que ele retorne todos disponíveis:
+
+				- document.querrySelectorAll("li.item");
+
+
+NB: A DICA DA ANGELA É USAR SEMPRE QUERYSELECTOR/QUERYSELECTORALL AO INVES DOS GET'S NORMAIS.

@@ -1,0 +1,104 @@
+MATH.RANDOM
+
+	Usamos para criar numeros aleatorios de 0 até n-1. Geralmente são floats e por isso precisamos fazer math.round se quisermos       ints
+
+
+	Se quisermos um random de 0 ate 6:
+		- var n = Math.random(); n = n * 6; n = math.round(n) + 1; console.log(n);
+
+
+
+
+IF-ELSE
+
+	if (condition === valor){ação;} else{outra ação;}
+
+	
+	=== ---> igual; !== ---> diferente.
+
+
+	typeof(elemento) retorna o tipo do elemento (em string acho eu)
+
+
+
+COMPARADORES
+
+	! NOT
+
+	&& AND
+
+	|| OR
+
+
+
+ARRAYS
+
+	var vetor = [1, 34, 3535, 54];
+
+	
+	Para aceder a um elemento de uma dada posição:
+
+		- vetor [posicao];
+
+	Para saber o tamanho de um vector:
+
+		- vetor.length;
+
+	
+	Para saber se um vetor contém um elemento:
+
+		- vetor.includes (elemento);
+
+
+	Para fazer append de um elemento:
+
+		- vetor.push(elemento);
+
+
+	Para remover o último elemento do array:
+
+		- vetor.pop;
+
+
+	
+
+WHILE
+
+	while (condition) {
+		statement;
+	}
+
+
+
+FOR
+
+	for ( i=0; I < num; I++){ação;}
+
+
+	Podemos declarar o i dentro do for também:
+
+		- for ( var i=0; I < num; I++){ação;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

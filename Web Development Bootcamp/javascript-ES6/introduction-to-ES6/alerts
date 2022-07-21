@@ -1,0 +1,16 @@
+CONSOLE
+
+	Para usarmos a consola no chrome fazemos inspect e vamos para a consola
+
+	Se quisermos criar código javascript no website precisamos criar um ficheiro .js e escrever code
+
+
+ALERT
+	
+	Para darmos alert:
+
+		- alert("mensagem");
+
+
+
+Material para js está disponível nos docks mdn da mozilla

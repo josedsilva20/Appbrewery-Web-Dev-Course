@@ -1,0 +1,9 @@
+Para podermos aceder ao texto html dentro de alguma tag:
+
+	- document.querySelector().textContent;
+
+	isso dá-nos o TEXTO dentro de uma tag html.
+
+Para aceder ao CODIGO dentro de um ficheiro html:
+
+	- document.querySelector().innerHTML;

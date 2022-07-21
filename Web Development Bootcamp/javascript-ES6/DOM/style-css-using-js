@@ -1,0 +1,9 @@
+STYLE
+
+	Se quisermos modificar o estilo do css precisamos escolher o elemento a mudar:
+
+		- escolher que estilo css queremos aplicar(ex: text-align);
+
+		- escrever document.querrySelector().style.textAlign = "center";
+
+		Notar que o nome esta diferente do css. Isso porque o js usa notação de maiúscula ao invés de -.

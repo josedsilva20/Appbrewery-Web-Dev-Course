@@ -1,0 +1,47 @@
+SE USARMOS console.log("text") fica melhor do que com alert() porque manda msgs organizadas para a consola
+
+
+
+VARIABLES
+
+	var myname = "Jose";
+
+
+
+
+NAMING CONVENCTIONS
+
+	As mesmas de PO. https://fenix.tecnico.ulisboa.pt/disciplinas/PO2/2021-2022/1-semestre/convencoes-de-codificacao-em-java
+
+
+
+STRINGS
+	
+	SLICE
+		slice(x,y); isto retorna uma string dividida entre x e y. Partindo de x, terminando em y.
+
+			ex: 
+				name = "Jose";
+				name.slice(0,1) ele retorna apenas J, pois corta uma vez em 0 e outra antes do 1. 
+
+	
+	UPPER CASE
+
+		Existe um método que transforma em maiúsculas:
+		
+			- string.toUpperCase();
+
+
+	
+FUNCTIONS
+
+	function name {instructions;}
+
+
+
+
+
+
+
+
+

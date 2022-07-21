@@ -1,0 +1,36 @@
+DOM
+
+	É o paradigma de programação que converte código HTML em objetos.
+
+	Os objetos dentro do DOM têm PROPRIEDADES (atributos) E METODOS (funcionalidades):
+
+	Dentro da consola do browser podemos sempre navegar entre os elementos:
+	
+		- digitando:
+		
+			- document.firstElementChild;  ---> retorna o primero filho do elemento, assim sssvamente.
+
+		Podemos guardar esse objeto numa variável:
+
+			- var heading = document.firstElementChild;
+
+		Podemos manipular esse heading usando no código js:
+
+			- heading.innerHTML = "goodbye"
+
+	
+	Por ex, se quisermos que uma checkbox tenha o certinho de clicked:
+
+		- document.querrySelector("input").click();
+
+	Para conhecer o valor de um atributo:
+		- objeto.atributo;
+
+	Para definir valores a atributos:
+		- objeto.atributo = valor;
+
+	Para usar metodos:
+
+		- objeto.metodo();
+
+		

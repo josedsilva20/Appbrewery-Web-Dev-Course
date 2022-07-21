@@ -1,0 +1,12 @@
+Para acedermos aos atributos de um elemento:
+
+	- document.querySelector("a").attributes;		Os elementos são mostrados através de uma lista.
+
+
+Para acedermos a um elemento conhecido e presente na lista de atributos usamos:
+
+	- document.querySelector("a").getAttribute("href");
+
+Para modificar um atributo num elemento:
+
+	- document.querySelector().setAttribute("href", "https://www.bing.com");

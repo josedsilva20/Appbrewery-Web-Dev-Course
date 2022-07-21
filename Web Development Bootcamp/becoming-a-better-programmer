@@ -1,0 +1,30 @@
+DRY
+	
+	Don't Repeat Yourself!
+
+	Não repetir código!
+
+
+HIERARQUIA DE REGRAS PARA REFACTORIZAÇÃO DE CODIGO 
+
+
+	Readability ---> Garantir que qualquer pessoa em qualquer momento consiga perceber o que se passa no código
+
+
+	Modularity  --->	Garantir que o código não seja repetido, ou seja, código igual substituído por algo simples
+
+
+	Efficiency  ---> Garantir que o código seja rápido (tempo de execução)
+
+
+	Length 	    ---> Garantir que o código não seja muito longo. Mas isso não é muito importante.
+
+
+
+REFACTORIZACAO DE CSS
+
+	Organizar primeiro todos os HTML elements no mesmo sitio.
+
+	Trocar os hn(1 ate 6) e substituir por notaões tipo big heading and stuff. 
+
+	fazer uma declaração unica de fonte para h's: h1, h2, h3, h4, h5, h6 {font-family: Montserrat-Black}

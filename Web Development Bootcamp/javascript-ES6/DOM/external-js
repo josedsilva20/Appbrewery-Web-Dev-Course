@@ -1,0 +1,17 @@
+ADICIONAR JS AO HTML
+
+	Para adicionar js ao nosso codigo de forma externa (js num outro ficheiro do html):
+
+		- dentro da tag body: 
+
+			- <script src = "file.js"...></script>
+
+
+	Para adicionar js ao nosso codigo de forma interna:
+
+		- dentro do body: criar uma tag:
+
+			- <script type = "text/javascript"> coding in js; </script> 
+
+
+	A posição em que colocamos o script do js no código html importa muito.

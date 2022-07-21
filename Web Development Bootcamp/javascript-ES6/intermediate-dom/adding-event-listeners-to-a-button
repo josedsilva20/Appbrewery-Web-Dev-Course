@@ -1,0 +1,17 @@
+Para ler um toque do utilizador:
+
+	- document.querySelector("alvo").addEventListener(type-of-event, Nome-da-funcao-a-executar);
+
+	a lista de eventos que podem ser usados está disponível na pagina da documentação na net.
+
+	essa função a executar deve ser escrita sem os parentes (em vez de func(), fica func);
+
+	essa função a executar pode ser criada na hora:
+
+		-	
+  			var vec = document.querySelectorAll(".drum");
+  			for (var i = 0; i < vec.length; i++){
+    			document.querySelectorAll(".drum")[i].addEventListener("click", function (){
+      			alert("hello");
+    			});
+  			}
